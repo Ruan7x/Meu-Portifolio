@@ -1,0 +1,122 @@
+
+.profile{
+    margin-left: center;
+    margin-right: center;
+    margin-left: 680px;
+    border-radius: 4vh;
+}
+
+body{
+    background: linear-gradient(to right, #000000, #360101,#000000,#5a0101);
+    
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: rgb(250, 248, 248);
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    color: rgba(255, 0, 0, 0.904);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    font-size: 5vh;
+    
+}
+hr {
+    color: #ff0909;
+}
+
+section img {
+    height: 30vh;
+}
+section {
+    text-align: center;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2vh;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4vh;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(116, 113, 113);
+    
+}
+.card-projetos {
+    margin-top: 10vh;
+}
+
+.sobre{
+    padding: 7vh;
+}
+.page-sites {
+    display: flex;
+    gap: 15px;
+    margin: 10vh;
+    
+}
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    
+}
+
+footer img {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    border-radius: 2vh;
+    
+}
+#linkedin {
+    width: 50px;
+    
+}
+#botao{
+    margin-bottom: 5vh;
+}
+#logo{
+    position: relative; right: 70vh; bottom: 140px;
+    width: 17vh;
+    border-radius: 4vh;
+}
+img:hover{
+    transform: scale(1.08);
+
+    box-shadow:
+        0 0 10px white,
+        0 0 25px #0130ff,
+        0 0 45px #4d01ff;
+}

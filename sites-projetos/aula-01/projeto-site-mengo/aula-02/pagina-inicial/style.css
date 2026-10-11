@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    text-align: center;
+    
+}
+
+main h2 {
+    margin: 8vh;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(0.5, 0, 0, 0.5) 75%,
+        transparent 100%
+    );
+}
+
+main p {
+    font-size: 30px;
+    margin: 20vh;
+    margin-top: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+nav{
+    font-size: 100px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 40px;
+    padding: 7px;
+    
+}
+
+
+
+
+footer{
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+hr{
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+body{
+    background: linear-gradient(to right, #000000, #ff0909);
+    background-image: url("https://media1.tenor.com/m/REOZA7Jxek8AAAAd/football.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    margin: 0;
+
+}
+
+a {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(0, 0, 0));
+    color: white;
+    
+}

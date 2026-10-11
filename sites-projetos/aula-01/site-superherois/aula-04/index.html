@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclamação de Super-Poderes</title>
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/197/1005/png-transparent-batman-logo-superhero-batman-symbol-outline-comics-smiley-dc-comics.png" type="image/x-icon">
+</head>
+
+<body>
+        <header>
+
+            <h1>Reclamação de Super-Poderes</h1>
+        </header>
+
+         <h2>Preencha os dados da sua reclamação.</h2>
+        <main class="container">
+        <section class="formulario">
+        <form>
+        <table>
+                <tr>
+                    <td>
+                        <label for="codinome">Qual é o seu codinome?</label>
+                    </td>
+
+                        <td>
+                            <input type="text"id="codinome"name="codinome"placeholder="Digite seu codinome" required>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="problema">Relate o seu problema</label>
+                        </td>
+
+                        <td>
+                            <textarea id="problema"name="problema"placeholder="Descreva o problema" required></textarea>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="nivel">Qual o nível do seu problema?</label>
+                        </td>
+
+                        <td>
+                            <select id="nivel" name="nivel" required>
+
+                                <option value="">
+                                    Selecione
+                                </option>
+
+                                <option value="leve">
+                                    Leve
+                                </option>
+
+                                <option value="moderado">
+                                    Moderado
+                                </option>
+
+                                <option value="grave">
+                                    Grave
+                                </option>
+
+                                <option value="urgente">
+                                    Urgente
+                                </option>
+
+                            </select>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="poder">
+                                Qual poder apresentou problema?
+                            </label>
+                        </td>
+
+                        <td>
+                            <select id="poder" name="poder" required>
+
+                                <option value=""> Selecione </option>
+
+                                <option value="elemental"> Manipulação Elemental </option>
+
+                                <option value="psiquico"> Habilidades Psíquicas</option>
+
+                                <option value="energia"> Manipulação de Energia </option>
+
+                                <option value="fisica"> Modificação Física </option>
+
+                                <option value="espaco-temporal"> Controle Espaço-Temporal </option>
+
+                                <option value="magico"> Poderes Mágicos / Sobrenaturais </option>
+
+                            </select>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="data"> Data da ocorrência </label>
+                        </td>
+
+                        <td>
+                            <input type="date"id="data"name="data" required>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td colspan="2">
+
+                            <button type="submit" class="botao"><a href="envio.html">Enviar reclamação!</a></button>
+
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

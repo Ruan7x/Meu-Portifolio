@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+     text-align: center;
+    margin-top: 10vh;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: white;
+    text-shadow:
+        0 0 5px #1900ff,
+        0 0 10px #0400ff,
+        0 0 20px #000000,
+        0 0 40px #0088ff;
+}
+section p {
+    margin: 4vh;
+}
+body {
+    background: linear-gradient(to right, #000000, #09064d);
+}
+
+div {
+    
+    text-align: center;
+}
+img {
+    width: 35vh;
+    margin-top: 10vh;
+}
+.botao {
+    display: block;
+    margin: 0 auto;
+    padding: 2vh;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin-top: 7vh;
+}
+

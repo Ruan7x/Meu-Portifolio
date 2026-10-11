@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 4vh;
+    text-shadow:
+        0 0 5px #1900ff,
+        0 0 10px #0400ff,
+        0 0 20px #000000,
+        0 0 40px #0088ff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+     background: linear-gradient(to right, #000000, #09064d);
+     color: white;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 12px rgb(0 ,0 ,0 , 0.15);
+    border-radius: 8px;
+}
+
+input,
+textarea,
+button {
+    margin-bottom: 10px;
+    padding: 2vh;
+    border-radius: 10px;
+}
+
+td label {
+    font-size: 3vh;
+}
+
+select {
+    width: 50vh;
+    height: 5vh;
+    
+    box-sizing: border-box;
+}
+
+input {
+    width: 50vh;
+    height: 5vh;
+    
+    box-sizing: border-box;
+}
+ textarea {
+    width: 50vh;
+    height: 5vh;
+    box-sizing: border-box;
+    font-size: 15px;
+ }
+tr{
+    background: linear-gradient(to right, #5A36A3, #030011);
+    border-radius: 10px;
+}
+td {
+    padding: 2vh;
+    border-radius: 10px;
+}
+
+.botao {
+    display: block;
+    margin: 0 auto;
+    padding: 2vh;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.botao:hover {
+    background-color: rgb(201, 191, 191);
+    cursor: pointer;
+}
+
+table {
+    border-spacing: 2px 25px;
+}
+
+select option[value="leve"]{
+    background-color: #2b8d05;
+    color: white;
+    font-size: 15px;
+}
+select option[value="moderado"]{
+    background-color: #afc205;
+    color: white;
+    font-size: 15px;
+}
+select option[value="grave"]{
+    background-color: #cc8603;
+    color: white;
+    font-size: 15px;
+}
+select option[value="urgente"]{
+    background-color: #bd0505;
+    color: white;
+    font-size: 15px;
+}

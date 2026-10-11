@@ -1,0 +1,36 @@
+PASSO A PASSO — SPOTIFY REAL NO PORTFÓLIO
+
+Este site agora tem um servidor Node.js que busca a música real do
+seu Spotify. Sem esse servidor rodando, a seção fica no estado
+"Carregando..." / "Ainda não conectei minha conta do Spotify aqui.".
+
+1) Instale o Node.js (18 ou mais novo), se ainda não tiver.
+
+2) No painel do seu app em Spotify for Developers, cadastre o
+   Redirect URI exatamente como:
+   http://127.0.0.1:3000/callback
+
+3) Copie .env.example para .env e preencha:
+   SPOTIFY_CLIENT_ID
+   SPOTIFY_CLIENT_SECRET
+   (opcional) SPOTIFY_PROFILE_URL com o link do seu perfil Spotify
+
+4) Gere uma ADMIN_KEY e cole no .env:
+   node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+
+5) No terminal, dentro da pasta do projeto:
+   npm install
+   npm start
+
+6) Autorize o Spotify (só na primeira vez), abrindo no navegador:
+   http://127.0.0.1:3000/login?key=SUA_ADMIN_KEY
+
+7) Abra o site pelo endereço do servidor, não abrindo o HTML direto
+   pelo Finder/Explorer:
+   http://127.0.0.1:3000/index.html
+
+Para testar: deixe uma música tocando no Spotify, abra a página e
+aguarde até 5 segundos. Capa, música, artista, álbum e a barra de
+progresso devem aparecer e avançar sozinhos.
+
+IMPORTANTE: não envie .env nem .spotify-token.json para o GitHub.
