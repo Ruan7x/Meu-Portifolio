@@ -201,23 +201,28 @@ button:hover {
 }
 
 
+/* =====================================================
+   RESPONSIVIDADE
+   ===================================================== */
+img { max-width: 100%; }
 
+@media (max-width: 900px) {
+    th { padding: 12px 8px; font-size: 16px; }
+    td { padding: 12px 8px; }
+    td:first-child { width: auto; }
+    td h2 { font-size: 18px; }
+    td img { width: 120px; height: 176px; }
+    td:nth-child(3), td:nth-child(4) { font-size: 18px; }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* A tabela de 4 colunas continua inteira, só que mais compacta */
+@media (max-width: 600px) {
+    h1 { font-size: 26px; padding: 3vh 10px; }
+    table { width: 96%; margin: 20px auto; }
+    th { padding: 8px 4px; font-size: 11px; letter-spacing: 0; }
+    td { padding: 8px 4px; font-size: 13px; }
+    td h2 { font-size: 13px; margin-bottom: 8px; }
+    td img { width: 80px; height: 117px; }
+    td:nth-child(3), td:nth-child(4) { font-size: 14px; }
+    footer { padding: 10px; }
+}

@@ -87,3 +87,28 @@ section h2 {
 .video{
     margin: 30px;
 }
+
+
+/* =====================================================
+   RESPONSIVIDADE
+   ===================================================== */
+img, video { max-width: 100%; height: auto; }
+
+@media (max-width: 1200px) {
+    h2 { font-size: 40px; }
+    section p { font-size: 30px; }
+    section { width: 45%; }
+    section h2 { padding: 20px; }
+    .video { margin: 30px 0; width: 100%; }   /* o vídeo ocupa a linha toda */
+}
+
+@media (max-width: 700px) {
+    header { font-size: 18px; padding: 10px; }      /* o h1 usa 2em desse valor */
+    nav a  { font-size: 22px; }
+    h2 { font-size: 28px; }
+    section { display: block; width: 100%; padding: 0 10px; box-sizing: border-box; }
+    section p { font-size: 20px; padding: 12px; }
+    section h2 { padding: 15px; }
+    .video { margin: 20px 0; padding: 0 10px; }
+    video { width: 100%; }
+}

@@ -114,3 +114,30 @@ select option[value="urgente"]{
     color: white;
     font-size: 15px;
 }
+
+
+/* =====================================================
+   RESPONSIVIDADE
+   ===================================================== */
+input, select, textarea { max-width: 100%; }
+
+@media (max-width: 1024px) {
+    input, select, textarea { width: 40vw; min-width: 260px; }
+}
+
+/* No celular a tabela vira uma coluna: rótulo em cima, campo embaixo */
+@media (max-width: 700px) {
+    header { padding: 3vh 12px; font-size: 20px; }
+    h2 { font-size: 20px; padding: 0 15px; }
+
+    .formulario { padding: 0 12px; }
+    table, tbody, tr, td { display: block; width: 100%; }
+    table { border-spacing: 0; }
+    tr { margin-bottom: 18px; padding: 6px 4px; }
+    td { padding: 8px 12px; }
+    td label { font-size: 18px; }
+
+    input, select, textarea { width: 100%; min-width: 0; height: 48px; }
+    textarea { height: 110px; }
+    .botao { width: 100%; }
+}

@@ -120,3 +120,64 @@ img:hover{
         0 0 25px #0130ff,
         0 0 45px #4d01ff;
 }
+
+
+/* =====================================================
+   RESPONSIVIDADE
+   ===================================================== */
+img { max-width: 100%; }
+
+/* Notebook / tablet grande */
+@media (max-width: 1600px) {
+    .page-sites {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 8vh 5vw;
+    }
+    .page-sites section {
+        flex: 1 1 300px;
+        max-width: 520px;
+    }
+    section img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* A foto e o logo deixam de ser "soltos" e ficam centralizados */
+@media (max-width: 1200px) {
+    .profile {
+        margin: 0 auto 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    #logo {
+        position: static;
+        width: 130px;
+    }
+    .profile img:not(#logo) {
+        width: 160px;
+    }
+}
+
+/* Tablet em pé / celular */
+@media (max-width: 700px) {
+    h1 { font-size: 28px; }
+    h2 { font-size: 22px; padding: 0 15px; }
+    p  { font-size: 16px; }
+
+    .sobre { padding: 20px; }
+    .sobre br { display: none; }
+    .card-projetos { margin-top: 6vh; }
+    .page-sites { margin: 4vh 15px; }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+}

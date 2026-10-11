@@ -41,3 +41,15 @@ img {
     margin-top: 7vh;
 }
 
+
+/* =====================================================
+   RESPONSIVIDADE
+   ===================================================== */
+img { max-width: 80%; }
+
+@media (max-width: 700px) {
+    section { margin-top: 6vh; padding: 0 15px; }
+    section h1 { font-size: 26px; }
+    img { width: 220px; margin-top: 5vh; }
+    .botao { margin-top: 5vh; margin-bottom: 5vh; }
+}

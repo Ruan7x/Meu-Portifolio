@@ -12,7 +12,7 @@
 <body>
 
 
-    <audio autoplay loop>
+    <audio autoplay loop id="meuAudio" controls>
         <source src="../imagens-tacas/Em dezembro de 81(Pra Cima Deles Flamengo 3x0 no Liverpool)Funk 150bpm Deejay Lucca - Deejay Lucca o Genio  Dos Hits (youtube).mp3" type="audio/mpeg">
         Seu navegador não suporta o elemento de áudio.
     </audio>
@@ -51,6 +51,10 @@
         <p>© Ruanzin 2026</p>
 
     </footer>
+    <script>
+    const audio = document.getElementById("meuAudio");
 
+    audio.volume = 0.3; // Volume inicial de 30%
+</script>
 </body>
 </html>
