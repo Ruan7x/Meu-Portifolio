@@ -291,7 +291,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(__dirname, { dotfiles: "ignore" }));
+app.use(express.static(__dirname, { dotfiles: "ignore", index: "inicio.html" }));
 
 app.get("/login", requireAdmin, (req, res) => {
   if (!CLIENT_ID || !CLIENT_SECRET) {
